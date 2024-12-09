@@ -1,0 +1,31 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    margin: 40px;
+
+}
+
+.project {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--color-bg-variant);
+    padding: 30px;
+}
+
+.project:hover {
+    background-color: var(--color-bg-variant2);
+}
+
+#project-name {
+    color: var(--color-primary-variant);
+}
+
+#project-desc {
+    color: var(--color-text2);
+}
