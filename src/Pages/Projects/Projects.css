@@ -1,3 +1,14 @@
+#projects-title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    background: linear-gradient(90deg, var(--color-primary), #FFF); /* Your gradient colors */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the rest of the text transparent */
+}
+
+
+
 .projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -7,8 +18,8 @@
 }
 
 .project {
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -20,6 +31,7 @@
 
 .project:hover {
     background-color: var(--color-bg-variant2);
+    scale: 1.1;
 }
 
 #project-name {
@@ -28,4 +40,24 @@
 
 #project-desc {
     color: var(--color-text2);
+}
+
+@media screen and (max-width: 600px) {
+    .projects {
+        height: auto;
+    }
+    #projects-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5rem;
+        margin: 40px;
+
+    }
+
 }

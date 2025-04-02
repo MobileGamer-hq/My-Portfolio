@@ -3,7 +3,7 @@ export const links = {
     linkedin: 'https://www.linkedin.com/in/somtochukwu-duru-919362253/',
     x: 'https://x.com/SomtochukwuDuru',
     instagram: 'https://www.instagram.com/somto2007',
-    email: 'somtoduru07@gmail.com',
+    email: "mailto:somtoduru07@gmail.com",
 }
 
 export const projects = {
@@ -11,7 +11,11 @@ export const projects = {
     smart_prop: 'https://github.com/MobileGamer-hq/SmartProp',
     nebula: 'https://github.com/MobileGamer-hq/N.E.B.U.L.A',
     dey_go: '',
-    catch_me: 'https://github.com/MobileGamer-hq/Catch-Me-ReactNative',
+    catch_me: 'https://github.com/MobileGamer-hq/Catch-Me-Flutter',
+    robot_arm: 'https://github.com/MobileGamer-hq/robot_arm',
+    epicordia: '',
+    scraper :'https://github.com/MobileGamer-hq/Scraper'
+
 }
 
 export const colors = {
@@ -24,9 +28,15 @@ export const colors = {
     text2: '#8B949E',
 }
 
-export const sizes = {
-    sm: '0.8rem',
-    md: '1rem',
-    lg: '1.2rem',
-    xl: '1.6rem',
+export const skills = {
+    python: 'python.org',
+    javascript: '',
+    net: '',
+    unity: '',
+    blender: '',
+    react: '',
+    react_native: '',
+    express: '',
+    autocad: ''
+
 }

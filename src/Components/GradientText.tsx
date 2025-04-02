@@ -1,11 +1,8 @@
 import "./Components.css"
 
-function GradientText({text, size}:{text: string, size: number}) {
+function GradientText({text}:{text: string}) {
     return(
-        <div className="gradient-text" style={{
-            fontSize: size,
-            lineHeight:`${size +10}px`,
-        }}>{text}</div>
+        <div className="gradient-text">{text}</div>
     )
 }
 export default GradientText;

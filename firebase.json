@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "somto",
     "public": "dist",
     "ignore": [
       "firebase.json",

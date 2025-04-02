@@ -1,3 +1,14 @@
+#services-title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    background: linear-gradient(90deg, var(--color-primary), #FFF); /* Your gradient colors */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the rest of the text transparent */
+}
+
+
+
 .services {
     background-color: var(--color-bg-variant);
 }
@@ -33,4 +44,39 @@
 
 #service-text {
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .services {
+        height: auto;
+    }
+
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 300px;
+        background-color: var(--color-bg);
+        padding: 10px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+
+    #services-title{
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
 }

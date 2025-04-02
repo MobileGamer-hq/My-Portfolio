@@ -17,6 +17,7 @@
 @media screen and (max-width: 600px) {
     .gradient-text{
         width: 100%;
+        font-size: 60px;
     }
 
 }
